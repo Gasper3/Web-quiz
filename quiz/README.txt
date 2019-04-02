@@ -1,1 +1,1 @@
-haslo do uzytkownikow to: qwerty
+password for users: qwerty
