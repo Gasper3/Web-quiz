@@ -1,1 +1,0 @@
-haslo do uzytkownikow to: qwerty

@@ -57,6 +57,7 @@ if(!isset($_SESSION['logged'])){
         $que="SELECT tresc, a, b, c, d FROM pytania inner join kategoria_pytan on kategoria_pytan.id=pytania.kategoria where kategoria_pytan.kategoria like '$category';";
         $result=$conn->query($que);
         $i=1;
+        $ile=0;
         echo "<form method='post'>";
         for($k=1;$k<=4;$k++){
           do{
@@ -81,12 +82,10 @@ if(!isset($_SESSION['logged'])){
           echo "<h2>$tresc</h2>";
           echo "<h4>";
           for($j=1;$j<=4;$j++){
-            // $los=mt_rand(1,4);
             $o=$row[$losowane[$j]];
             echo "<label><input type=radio name='$i' value='$o'>$o</label><br>";
           }
           echo "</h4>";
-          // echo "<h4><label><input type=radio name='$i' value='$a'>$a</label><br><label><input type=radio name='$i' value='$b'>$b</label><br><label><input type=radio name='$i' value='$c'>$c</label><br><label><input type=radio name='$i' value='$d'>$d</label></h4>";
           $i++;
         }
         echo "<input type=submit name='end' value='Zakończ'>";
@@ -101,7 +100,6 @@ if(!isset($_SESSION['logged'])){
         $conn->set_charset("utf8");
         $que="SELECT poprawna FROM pytania inner join kategoria_pytan on kategoria_pytan.id=pytania.kategoria where kategoria_pytan.kategoria like '$category';";
         $result=$conn->query($que);
-        // $row=$result->fetch_array(MYSQLI_NUM);
         $ilosc_pytan=$result->num_rows;
         $i=1;
         while($row=$result->fetch_array(MYSQLI_NUM)){
