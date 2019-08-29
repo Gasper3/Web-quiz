@@ -1,5 +1,5 @@
 # Project Name
-> Here goes your awesome project description!
+> Simple quiz app written in PHP
 
 ## Table of contents
 * [General info](#general-info)
