@@ -14,7 +14,7 @@
 This is my first app. It's simple quiz app.
 
 ## Screenshots
-![Example screenshot](img/quiz-app.png)
+![Example screenshot](asdimg/quiz-app.png)
 
 ## Technologies
 * PHP
