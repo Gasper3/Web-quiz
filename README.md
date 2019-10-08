@@ -13,9 +13,6 @@
 ## General info
 This is my first app. It's simple quiz app.
 
-## Screenshots
-![Example screenshot](asdimg/quiz-app.png)
-
 ## Technologies
 * PHP
 * CSS
