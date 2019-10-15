@@ -12,6 +12,7 @@
 
 ## General info
 This is my first app. It's simple quiz app.
+user kacper password qwerty
 
 ## Technologies
 * PHP
