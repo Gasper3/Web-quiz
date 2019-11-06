@@ -4,7 +4,7 @@ session_start();
 //   header("Location: index.php");
 //   exit();
 // }
-require_once("connect.php");
+require_once("database/connect.php");
 $conn=new mysqli($server, $db_user, $db_password, $db);
 $login=$_POST['login'];
 $pass=$_POST['pass'];
