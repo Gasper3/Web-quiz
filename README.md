@@ -1,4 +1,4 @@
-# Project Name
+# Web QUIZ
 > Simple quiz app written in PHP
 
 ## Table of contents
