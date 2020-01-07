@@ -21,8 +21,6 @@ Password: qwerty
 
 ## Features
 List of features ready and TODOs for future development
-* random order of answers
-* users
 
 To-do list:
 * admin panel
