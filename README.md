@@ -3,11 +3,9 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Features](#features)
+* [TODO](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## General info
@@ -19,14 +17,11 @@ Password: qwerty
 * PHP
 * CSS
 
-## Features
-List of features ready and TODOs for future development
-
-To-do list:
+## TODO
 * admin panel
 
 ## Status
-Project is: _in progress_
+Project is: _in progress_ (Plans to use OOP in this project)
 
 ## Contact
 Created by [@Gasper3](https://github.com/Gasper3) - feel free to contact me!
