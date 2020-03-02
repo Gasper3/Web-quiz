@@ -1,6 +1,5 @@
 # Web QUIZ
-> Simple quiz app written in PHP
-
+> Simple quiz app written in PHP.
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
@@ -21,7 +20,7 @@ Password: qwerty
 * admin panel
 
 ## Status
-Project is: _in progress_ (Plans to use OOP in this project)
+Project is: _no longer continue_ (I will move this app to Symfony)
 
 ## Contact
 Created by [@Gasper3](https://github.com/Gasper3) - feel free to contact me!
